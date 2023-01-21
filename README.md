@@ -20,3 +20,5 @@ This layout is heavily inspired by [this](https://github.com/aroum/Watchman-layo
 ## Documentation
 
 Answers to frequently asked questions can be found in [FAQ](docs/FAQ.md)
+
+[Eddytep Layoout](http://www.keyboard-layout-editor.com/#/gists/51f823438377de2b7166a302f1f7382c)
