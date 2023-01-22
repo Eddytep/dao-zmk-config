@@ -19,8 +19,8 @@
 / {
         macros {
                 ZMK_MACRO(alt_comma,
-                        wait-ms = <30>;
-                        tap-ms = <40>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N4 &kp KP_N4>
                         , <&macro_release &kp LALT>;
