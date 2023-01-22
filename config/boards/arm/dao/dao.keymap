@@ -26,43 +26,43 @@
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(m_en,
-                        wait-ms = <30>;
-                        tap-ms = <40>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LALT &kp LSHFT>
                         , <&macro_tap &kp N1>
                         , <&macro_release &kp LALT &kp LSHFT>;
                 )
                 ZMK_MACRO(m_ru,
-                        wait-ms = <30>;
-                        tap-ms = <40>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LALT &kp LSHFT>
                         , <&macro_tap &kp N2>
                         , <&macro_release &kp LALT &kp LSHFT>;
                 )
                 ZMK_MACRO(m_c_left,
-                        wait-ms = <30>;
-                        tap-ms = <40>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LCTRL>
                         , <&macro_tap &kp LEFT>
                         , <&macro_release &kp LCTRL>;
                 )
                 ZMK_MACRO(m_c_right,
-                        wait-ms = <30>;
-                        tap-ms = <40>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LCTRL>
                         , <&macro_tap &kp RIGHT>
                         , <&macro_release &kp LCTRL>;
                 )
                 ZMK_MACRO(m_cs_left,
-                        wait-ms = <30>;
-                        tap-ms = <40>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LCTRL &kp LSHFT>
                         , <&macro_tap &kp LEFT>
                         , <&macro_release &kp LCTRL>;
                 )
                 ZMK_MACRO(m_cs_right,
-                        wait-ms = <30>;
-                        tap-ms = <40>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LCTRL &kp LSHFT>
                         , <&macro_tap &kp RIGHT>
                         , <&macro_release &kp LCTRL>;
