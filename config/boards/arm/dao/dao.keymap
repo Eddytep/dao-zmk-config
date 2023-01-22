@@ -30,19 +30,19 @@
                 };
                 lower_layer {
                         bindings = <
-  &none   &mt LGUI F1      &kp F2     &kp F3   &kp F4        &kp F5     &kp F6      &kp F7      &kp F8     &kp F9        &kp F10    &kp F11    &kp F12           &none
-          &mt LCTRL PLUS   &kp EXCL   &kp AT   &kp HASH      &kp DLLR   &kp PRCNT   &kp CARET   &kp AMPS   &kp STAR      &kp LPAR   &kp RPAR   &mt RCTRL MINUS
-          &mt LALT EQUAL   &kp N1     &kp N2   &kp N3        &kp N4     &kp N5      &kp N6      &kp N7     &kp N8        &kp N9     &kp N0     &kp RALT
-                                               &lt ADJ TAB   &trans     &trans      &trans      &trans     &lt ADJ DEL
+  &none   &mt LALT PERCENT  &kp SLASH  &kp AT     &kp MINUS     &kp PLUS   &kp LBRC    &kp RBRC   &kp N7     &kp N8        &kp N9     &kp BSLH   &kp INS           &none
+          &mt LCTRL PIPE    &kp ASTRK  &kp EXCL   &kp UNDER     &kp EQUAL  &kp LPAR    &kp RPAR   &kp N4     &kp N5        &kp N6     &kp SEMI   &kp K_APP
+          &mt LGUI CARET    &kp AMPS   &kp QMARK  &kp N3        &kp N4     &kp LT      &kp GT     &kp N1     &kp N2        &kp N3     &kp N0     &kp LSHFT
+                                                  &lt ADJ TAB   &trans     &trans      &trans     &trans     &lt ADJ DEL
                         >;
                 };
 
                 raise_layer {
                         bindings = <
-  &none   &mt LGUI KP_NUM   &kp KP_SLASH      &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_MINUS   &kp C_VOL_UP   &kp PG_UP   &kp UP   &kp PG_DN   &kp SLCK          &kp CLCK           &none
-          &mt LCTRL EQUAL   &kp KP_MULTIPLY   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_PLUS    &kp C_MUTE     &kp LEFT   &kp DOWN      &kp RIGHT   &kp INS           &mt RCTRL  K_APP
-          &kp LALT          &kp KP_N0         &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_DOT     &kp C_VOL_DN   &kp HOME    &kp PSCRN    &kp END   &kp PAUSE_BREAK   &kp RALT
-                                                          &trans      &trans      &lt ADJ RET    &lt ADJ ESC    &trans     &trans
+  &none   &mt LGUI KP_NUM   &kp KP_SLASH      &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_MINUS   &kp C_VOL_UP   &kp PG_UP   &kp UP       &kp PG_DN   &kp SLCK          &kp CLCK           &none
+          &mt LCTRL EQUAL   &kp KP_MULTIPLY   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_PLUS    &kp C_MUTE     &kp LEFT    &kp DOWN     &kp RIGHT   &kp INS           &mt RCTRL  K_APP
+          &kp LALT          &kp KP_N0         &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_DOT     &kp C_VOL_DN   &kp HOME    &kp PSCRN    &kp END     &kp PAUSE_BREAK   &kp RALT
+                                                          &trans      &trans      &lt ADJ RET    &lt ADJ ESC    &trans      &trans
                         >;
                 };
                 adjust_layer {
