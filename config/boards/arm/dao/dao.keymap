@@ -56,14 +56,14 @@
                 ZMK_MACRO(m_cs_left,
                         wait-ms = <30>;
                         tap-ms = <40>;
-                        bindings = <&macro_press &kp LCTRL>
+                        bindings = <&macro_press &kp LCTRL &kp LSHFT>
                         , <&macro_tap &kp LEFT>
                         , <&macro_release &kp LCTRL>;
                 )
                 ZMK_MACRO(m_cs_right,
                         wait-ms = <30>;
                         tap-ms = <40>;
-                        bindings = <&macro_press &kp LCTRL>
+                        bindings = <&macro_press &kp LCTRL &kp LSHFT>
                         , <&macro_tap &kp RIGHT>
                         , <&macro_release &kp LCTRL>;
                 )
