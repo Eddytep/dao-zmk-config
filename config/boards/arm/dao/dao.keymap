@@ -108,7 +108,7 @@
   &none   &kp DOLLAR  &rus_number  &kp F7   &kp F8   &kp F9   &kp F12      &kp C_VOL_UP   &m_cs_left  &kp UP       &m_cs_right  &kp PG_UP   &kp INS     &none
           &m_ctrl_z   &kp HASH     &kp F4   &kp F5   &kp F6   &kp F11      &kp HOME       &kp LEFT    &kp DOWN     &kp RIGHT    &kp END     &kp K_APP
           &kp LSHFT   &kp F13      &kp F1   &kp F2   &kp F3   &kp F10      &kp C_VOL_DN   &m_c_left   &kp PSCRN    &m_c_right   &kp PG_DN   &kp RSHFT
-                                            ]&trans   &trans   &lt ADJ RET  &lt ADJ ESC    &trans      &trans
+                                            &trans   &trans   &lt ADJ RET  &lt ADJ ESC    &trans      &trans
                         >;
                 };
                 adjust_layer {
