@@ -29,14 +29,14 @@
                         wait-ms = <30>;
                         tap-ms = <40>;
                         bindings = <&macro_press &kp LALT &kp LSHFT>
-                        , <&macro_tap &kp KP_N1>
+                        , <&macro_tap &kp N1>
                         , <&macro_release &kp LALT &kp LSHFT>;
                 )
                 ZMK_MACRO(m_ru,
                         wait-ms = <30>;
                         tap-ms = <40>;
                         bindings = <&macro_press &kp LALT &kp LSHFT>
-                        , <&macro_tap &kp KP_N2>
+                        , <&macro_tap &kp N2>
                         , <&macro_release &kp LALT &kp LSHFT>;
                 )
                 ZMK_MACRO(m_c_left,
