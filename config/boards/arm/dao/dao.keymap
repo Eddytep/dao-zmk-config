@@ -67,6 +67,13 @@
                         , <&macro_tap &kp RIGHT>
                         , <&macro_release &kp LCTRL>;
                 )
+                ZMK_MACRO(m_ctrl_z,
+                        wait-ms = <20>;
+                        tap-ms = <20>;
+                        bindings = <&macro_press &kp LCTRL>
+                        , <&macro_tap &kp Z>
+                        , <&macro_release &kp LCTRL>;
+                )
         };
 
         keymap {
@@ -83,7 +90,7 @@
                 lower_layer {
                         bindings = <
   &none   &mt LALT PERCENT  &kp SLASH  &kp AT     &kp MINUS      &kp PLUS      &kp LBRC     &kp RBRC   &kp N7     &kp N8        &kp N9     &kp BSLH   &kp INS           &none
-          &mt LCTRL PIPE    &kp ASTRK  &kp EXCL   &kp UNDER      &kp EQUAL     &kp LPAR     &kp RPAR   &kp N4     &kp N5        &kp N6     &kp SEMI   &kp K_APP
+          &mt LCTRL PIPE    &kp ASTRK  &kp EXCL   &kp UNDER      &kp EQUAL     &kp LPAR     &kp RPAR   &kp N4     &kp N5        &kp N6     &kp SEMI   &m_ctrl_z
           &mt LGUI CARET    &kp AMPS   &kp QMARK  &m_ru          &m_en         &kp LT       &kp GT     &kp N1     &kp N2        &kp N3     &kp N0     &kp RSHFT
                                                   &lt ADJ TAB    &trans        &trans       &trans     &trans     &lt ADJ DEL
                         >;
