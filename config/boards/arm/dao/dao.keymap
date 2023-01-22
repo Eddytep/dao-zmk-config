@@ -39,14 +39,28 @@
                         , <&macro_tap &kp KP_N2>
                         , <&macro_release &kp LALT &kp LSHFT>;
                 )
-                ZMK_MACRO(c_left,
+                ZMK_MACRO(m_c_left,
                         wait-ms = <30>;
                         tap-ms = <40>;
                         bindings = <&macro_press &kp LCTRL>
                         , <&macro_tap &kp LEFT>
                         , <&macro_release &kp LCTRL>;
                 )
-                ZMK_MACRO(c_right,
+                ZMK_MACRO(m_c_right,
+                        wait-ms = <30>;
+                        tap-ms = <40>;
+                        bindings = <&macro_press &kp LCTRL>
+                        , <&macro_tap &kp RIGHT>
+                        , <&macro_release &kp LCTRL>;
+                )
+                ZMK_MACRO(m_cs_left,
+                        wait-ms = <30>;
+                        tap-ms = <40>;
+                        bindings = <&macro_press &kp LCTRL>
+                        , <&macro_tap &kp LEFT>
+                        , <&macro_release &kp LCTRL>;
+                )
+                ZMK_MACRO(m_cs_right,
                         wait-ms = <30>;
                         tap-ms = <40>;
                         bindings = <&macro_press &kp LCTRL>
@@ -77,9 +91,9 @@
 
                 raise_layer {
                         bindings = <
-  &none   &mt LALT  KP_NUM  &kp F15   &kp F7   &kp F8   &kp F9   &kp F12      &kp C_VOL_UP   &none       &kp UP       &none       &kp PG_UP   &kp INS           &none
-          &mt LCTRL CAPS    &kp F14   &kp F4   &kp F5   &kp F6   &kp F11      &kp HOME       &kp LEFT    &kp DOWN     &kp RIGHT   &kp END     &kp K_APP
-          &kp LSHFT         &kp F13   &kp F1   &kp F2   &kp F3   &kp F10      &kp C_VOL_DN   &c_left     &kp PSCRN    &c_right    &kp PG_DN   &kp RSHFT
+  &none   &mt LALT  KP_NUM  &kp F15   &kp F7   &kp F8   &kp F9   &kp F12      &kp C_VOL_UP   &m_cs_left  &kp UP       &m_cs_right  &kp PG_UP   &kp INS           &none
+          &mt LCTRL CAPS    &kp F14   &kp F4   &kp F5   &kp F6   &kp F11      &kp HOME       &kp LEFT    &kp DOWN     &kp RIGHT    &kp END     &kp K_APP
+          &kp LSHFT         &kp F13   &kp F1   &kp F2   &kp F3   &kp F10      &kp C_VOL_DN   &m_c_left   &kp PSCRN    &m_c_right   &kp PG_DN   &kp RSHFT
                                                &trans   &trans   &lt ADJ RET  &lt ADJ ESC    &trans      &trans
                         >;
                 };
