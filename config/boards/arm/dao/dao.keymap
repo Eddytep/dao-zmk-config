@@ -25,11 +25,39 @@
                         , <&macro_tap &kp KP_N4 &kp KP_N4>
                         , <&macro_release &kp LALT>;
                 )
+                ZMK_MACRO(alt_dot,
+                        wait-ms = <30>;
+                        tap-ms = <30>;
+                        bindings = <&macro_press &kp LALT>
+                        , <&macro_tap &kp KP_N4 &kp KP_N6>
+                        , <&macro_release &kp LALT>;
+                )
+                ZMK_MACRO(alt_slash,
+                        wait-ms = <30>;
+                        tap-ms = <30>;
+                        bindings = <&macro_press &kp LALT>
+                        , <&macro_tap &kp KP_N4 &kp KP_N7>
+                        , <&macro_release &kp LALT>;
+                )
+                ZMK_MACRO(alt_qmark,
+                        wait-ms = <30>;
+                        tap-ms = <30>;
+                        bindings = <&macro_press &kp LALT>
+                        , <&macro_tap &kp KP_N6 &kp KP_N3>
+                        , <&macro_release &kp LALT>;
+                )
                 ZMK_MACRO(alt_semi,
                         wait-ms = <30>;
                         tap-ms = <30>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N5 &kp KP_N9>
+                        , <&macro_release &kp LALT>;
+                )
+                ZMK_MACRO(alt_colon,
+                        wait-ms = <30>;
+                        tap-ms = <30>;
+                        bindings = <&macro_press &kp LALT>
+                        , <&macro_tap &kp KP_N5 &kp KP_N8>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_dqt,
@@ -72,6 +100,20 @@
                         tap-ms = <30>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N3 &kp KP_N5>
+                        , <&macro_release &kp LALT>;
+                )
+                ZMK_MACRO(alt_star,
+                        wait-ms = <30>;
+                        tap-ms = <30>;
+                        bindings = <&macro_press &kp LALT>
+                        , <&macro_tap &kp KP_N4 &kp KP_N2>
+                        , <&macro_release &kp LALT>;
+                )
+                ZMK_MACRO(alt_ampersand,
+                        wait-ms = <30>;
+                        tap-ms = <30>;
+                        bindings = <&macro_press &kp LALT>
+                        , <&macro_tap &kp KP_N3 &kp KP_N8>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(rus_number,
@@ -145,10 +187,10 @@
                 };
                 lower_layer {
                         bindings = <
-  &none   &mt LALT PERCENT     &kp SLASH  &kp AT     &kp MINUS      &kp PLUS      &kp LBRC     &kp RBRC   &kp N7     &kp N8        &kp N9     &kp BSLH      &alt_dqt           &none
-          &mt LCTRL &alt_pipe  &kp ASTRK  &kp EXCL   &kp UNDER      &kp EQUAL     &kp LPAR     &kp RPAR   &kp N4     &kp N5        &kp N6     &alt_semi     &kp COLON
-          &mt LGUI &alt_carret &kp AMPS   &kp QMARK  &m_ru          &m_en         &kp LT       &kp GT     &kp N1     &kp N2        &kp N3     &kp N0        &alt_apostrophe
-                                                     &lt ADJ TAB    &trans        &trans       &trans     &trans     &lt ADJ DEL
+  &none   &mt LALT PERCENT  &alt_slash      &kp AT         &kp MINUS      &kp PLUS      &kp LBRC     &kp RBRC   &kp N7     &kp N8        &kp N9     &kp BSLH      &alt_dqt           &none
+          &alt_pipe         &alt_star       &kp EXCL       &kp UNDER      &kp EQUAL     &kp LPAR     &kp RPAR   &kp N4     &kp N5        &kp N6     &alt_semi     &alt_dot
+          &alt_carret       &alt_ampersand  &kp alt_qmark  &m_ru          &m_en         &kp LT       &kp GT     &kp N1     &kp N2        &kp N3     &kp N0        &alt_apostrophe
+                                                           &lt ADJ TAB    &trans        &trans       &trans     &trans     &lt ADJ DEL
                         >;
                 };
 
