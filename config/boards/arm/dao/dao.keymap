@@ -46,6 +46,13 @@
                         , <&macro_tap &kp KP_N6 &kp KP_N3>
                         , <&macro_release &kp LALT>;
                 )
+                ZMK_MACRO(alt_at,
+                        wait-ms = <30>;
+                        tap-ms = <30>;
+                        bindings = <&macro_press &kp LALT>
+                        , <&macro_tap &kp KP_N6 &kp KP_N4>
+                        , <&macro_release &kp LALT>;
+                )
                 ZMK_MACRO(alt_semi,
                         wait-ms = <30>;
                         tap-ms = <30>;
@@ -187,7 +194,7 @@
                 };
                 lower_layer {
                         bindings = <
-  &none   &mt LALT PERCENT  &alt_slash      &kp AT         &kp MINUS      &kp PLUS      &kp LBRC     &kp RBRC   &kp N7     &kp N8        &kp N9     &kp BSLH      &alt_dqt           &none
+  &none   &mt LALT PERCENT  &alt_slash      &alt_at        &kp MINUS      &kp PLUS      &kp LBRC     &kp RBRC   &kp N7     &kp N8        &kp N9     &kp BSLH      &alt_dqt           &none
           &alt_pipe         &alt_star       &kp EXCL       &kp UNDER      &kp EQUAL     &kp LPAR     &kp RPAR   &kp N4     &kp N5        &kp N6     &alt_semi     &alt_dot
           &alt_carret       &alt_ampersand  &alt_qmark     &m_ru          &m_en         &kp LT       &kp GT     &kp N1     &kp N2        &kp N3     &kp N0        &alt_apostrophe
                                                            &lt ADJ TAB    &trans        &trans       &trans     &trans     &lt ADJ DEL
