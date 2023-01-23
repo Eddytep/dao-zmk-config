@@ -18,6 +18,34 @@
 
 / {
         macros {
+                ZMK_MACRO(alt_LBRC,
+                        wait-ms = <30>;
+                        tap-ms = <30>;
+                        bindings = <&macro_press &kp LALT>
+                        , <&macro_tap &kp KP_N1 &kp KP_N2 &kp KP_N3>
+                        , <&macro_release &kp LALT>;
+                )
+                ZMK_MACRO(alt_RBRC,
+                        wait-ms = <30>;
+                        tap-ms = <30>;
+                        bindings = <&macro_press &kp LALT>
+                        , <&macro_tap &kp KP_N1 &kp KP_N2 &kp KP_N5>
+                        , <&macro_release &kp LALT>;
+                )
+                ZMK_MACRO(alt_LT,
+                        wait-ms = <30>;
+                        tap-ms = <30>;
+                        bindings = <&macro_press &kp LALT>
+                        , <&macro_tap &kp KP_N6 &kp KP_N0>
+                        , <&macro_release &kp LALT>;
+                )
+                ZMK_MACRO(alt_GT,
+                        wait-ms = <30>;
+                        tap-ms = <30>;
+                        bindings = <&macro_press &kp LALT>
+                        , <&macro_tap &kp KP_N6 &kp KP_N2>
+                        , <&macro_release &kp LALT>;
+                )
                 ZMK_MACRO(alt_comma,
                         wait-ms = <30>;
                         tap-ms = <30>;
@@ -163,14 +191,14 @@
                         tap-ms = <30>;
                         bindings = <&macro_press &kp LCTRL &kp LSHFT>
                         , <&macro_tap &kp LEFT>
-                        , <&macro_release &kp LCTRL>;
+                        , <&macro_release &kp LCTRL &kp LSHFT>;
                 )
                 ZMK_MACRO(m_cs_right,
                         wait-ms = <30>;
                         tap-ms = <30>;
                         bindings = <&macro_press &kp LCTRL &kp LSHFT>
                         , <&macro_tap &kp RIGHT>
-                        , <&macro_release &kp LCTRL>;
+                        , <&macro_release &kp LCTRL &kp LSHFT>;
                 )
                 ZMK_MACRO(m_ctrl_z,
                         wait-ms = <30>;
