@@ -19,183 +19,183 @@
 / {
         macros {
                 ZMK_MACRO(alt_LBRC,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N1 &kp KP_N2 &kp KP_N3>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_RBRC,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N1 &kp KP_N2 &kp KP_N5>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_LT,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N6 &kp KP_N0>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_GT,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N6 &kp KP_N2>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_comma,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N4 &kp KP_N4>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_dot,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N4 &kp KP_N6>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_slash,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N4 &kp KP_N7>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_qmark,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N6 &kp KP_N3>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_at,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N6 &kp KP_N4>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_semi,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N5 &kp KP_N9>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_colon,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N5 &kp KP_N8>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_dqt,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N3 &kp KP_N4>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_apostrophe,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N3 &kp KP_N9>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_pipe,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N1 &kp KP_N2 &kp KP_N4>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_carret,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N9 &kp KP_N4>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_dollar,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N3 &kp KP_N6>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_hash,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N3 &kp KP_N5>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_star,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N4 &kp KP_N2>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(alt_ampersand,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N3 &kp KP_N8>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(rus_number,
-                        wait-ms = <20>;
-                        tap-ms = <20>;
+                        wait-ms = <10>;
+                        tap-ms = <10>;
                         bindings = <&macro_press &kp LALT>
                         , <&macro_tap &kp KP_N2 &kp KP_N5 &kp KP_N2>
                         , <&macro_release &kp LALT>;
                 )
                 ZMK_MACRO(m_en,
-                        wait-ms = <30>;
-                        tap-ms = <30>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LALT &kp LSHFT>
                         , <&macro_tap &kp N1>
                         , <&macro_release &kp LALT &kp LSHFT>;
                 )
                 ZMK_MACRO(m_ru,
-                        wait-ms = <30>;
-                        tap-ms = <30>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LALT &kp LSHFT>
                         , <&macro_tap &kp N2>
                         , <&macro_release &kp LALT &kp LSHFT>;
                 )
                 ZMK_MACRO(m_c_left,
-                        wait-ms = <30>;
-                        tap-ms = <30>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LCTRL>
                         , <&macro_tap &kp LEFT>
                         , <&macro_release &kp LCTRL>;
                 )
                 ZMK_MACRO(m_c_right,
-                        wait-ms = <30>;
-                        tap-ms = <30>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LCTRL>
                         , <&macro_tap &kp RIGHT>
                         , <&macro_release &kp LCTRL>;
                 )
                 ZMK_MACRO(m_cs_left,
-                        wait-ms = <30>;
-                        tap-ms = <30>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LCTRL &kp LSHFT>
                         , <&macro_tap &kp LEFT>
                         , <&macro_release &kp LCTRL &kp LSHFT>;
                 )
                 ZMK_MACRO(m_cs_right,
-                        wait-ms = <30>;
-                        tap-ms = <30>;
+                        wait-ms = <20>;
+                        tap-ms = <20>;
                         bindings = <&macro_press &kp LCTRL &kp LSHFT>
                         , <&macro_tap &kp RIGHT>
                         , <&macro_release &kp LCTRL &kp LSHFT>;
