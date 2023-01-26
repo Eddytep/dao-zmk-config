@@ -222,26 +222,26 @@
                 };
                 lower_layer {
                         bindings = <
-  &none   &mt LALT PERCENT  &alt_slash      &alt_at        &kp MINUS      &kp PLUS      &alt_LBRC    &alt_RBRC  &kp N7     &kp N8        &kp N9     &kp BSLH      &alt_dqt           &none
-          &alt_pipe         &alt_star       &kp EXCL       &kp UNDER      &kp EQUAL     &kp LPAR     &kp RPAR   &kp N4     &kp N5        &kp N6     &alt_semi     &alt_colon
-          &alt_carret       &alt_ampersand  &alt_qmark     &m_ru          &m_en         &alt_LT      &alt_GT    &kp N1     &kp N2        &kp N3     &kp N0        &alt_apostrophe
+  &none   &mt LALT PERCENT  &alt_slash      &alt_star      &kp MINUS      &kp PLUS      &alt_LBRC    &alt_RBRC  &kp N7     &kp N8        &kp N9     &kp BSLH      &alt_dqt           &none
+          &alt_pipe         &alt_qmark      &kp EXCL       &m_ru          &m_en         &kp LPAR     &kp RPAR   &kp N4     &kp N5        &kp N6     &alt_semi     &alt_colon
+          &alt_carret       &alt_ampersand  &alt_at        u&kp UNDER     &kp EQUAL     &alt_LT      &alt_GT    &kp N1     &kp N2        &kp N3     &kp N0        &alt_apostrophe
                                                            &lt ADJ TAB    &trans        &trans       &trans     &trans     &lt ADJ DEL
                         >;
                 };
 
                 raise_layer {
                         bindings = <
-  &none   &kp LALT     &rus_number  &kp F7   &kp F8   &kp F9   &kp F12      &kp C_VOL_UP   &m_cs_left  &kp UP       &m_cs_right  &kp PG_UP   &kp INS     &none
-          &m_ctrl_z    &alt_hash    &kp F4   &kp F5   &kp F6   &kp F11      &kp HOME       &kp LEFT    &kp DOWN     &kp RIGHT    &kp END     &kp K_APP
-          &kp LSHFT    &alt_dollar  &kp F1   &kp F2   &kp F3   &kp F10      &kp C_VOL_DN   &m_c_left   &kp PSCRN    &m_c_right   &kp PG_DN   &kp RSHFT
+  &none   &kp LALT     &alt_hash    &kp F7   &kp F8   &kp F9   &kp F12      &kp C_VOL_UP   &m_cs_left  &kp UP       &m_cs_right  &kp PG_UP   &kp INS     &none
+          &m_ctrl_z    &alt_dollar  &kp F4   &kp F5   &kp F6   &kp F11      &kp HOME       &kp LEFT    &kp DOWN     &kp RIGHT    &kp END     &kp K_APP
+          &kp LSHFT    &rus_number  &kp F1   &kp F2   &kp F3   &kp F10      &kp C_VOL_DN   &m_c_left   &kp PSCRN    &m_c_right   &kp PG_DN   &kp RSHFT
                                              &trans   &trans   &lt ADJ RET  &lt ADJ ESC    &trans      &trans
                         >;
                 };
                 adjust_layer {
                         bindings = <
-  &none   &bootloader   &none          &none          &none          &none          &kp CAPS       &kp KP_NUM     &kp SLCK       &none          &none          &none          &bootloader   &none
+  &none   &reset        &none          &none          &none          &none          &kp CAPS       &kp KP_NUM     &kp SLCK       &none          &none          &none          &reset            &none
           &bt BT_CLR    &bt BT_SEL 4   &bt BT_SEL 2   &bt BT_SEL 2   &bt BT_SEL 1   &bt BT_SEL 0   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4   &bt BT_CLR
-          &reset        &none          &none          &none          &none          &none          &none          &none          &none          &none          &none          &reset
+          &bootloader   &none          &none          &none          &none          &none          &none          &none          &none          &none          &none          &bootloader
                                                       &trans         &none          &trans         &none          &trans         &trans
                         >;
                 };
