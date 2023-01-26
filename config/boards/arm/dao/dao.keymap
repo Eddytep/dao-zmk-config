@@ -216,14 +216,14 @@
                         bindings = <
   &none   &mt LALT  RBKT     &kp Q   &kp W   &kp E         &kp R             &kp T         &kp Y         &kp U            &kp I         &kp O     &kp P       &kp LBKT        &none
           &mt LCTRL GRAVE    &kp A   &kp S   &kp D         &kp F             &kp G         &kp H         &kp J            &kp K         &kp L     &kp SEMI    &mt RCTRL SQT
-          &kp LGUI           &kp Z   &kp X   &kp C         &kp V             &kp B         &kp N         &kp M            &kp COMMA     &kp DOT   &kp KP_DOT  &alt_comma
+          &kp LGUI           &kp Z   &kp X   &kp C         &kp V             &kp B         &kp N         &kp M            &kp COMMA     &kp DOT   &alt_dot    &alt_comma
                                              &lt RSE TAB   &mt LSHFT SPACE   &lt LWR RET   &lt LWR ESC   &mt RSHFT BSPC   &lt RSE DEL
                         >;
                 };
                 lower_layer {
                         bindings = <
   &none   &mt LALT PERCENT  &alt_slash      &alt_at        &kp MINUS      &kp PLUS      &alt_LBRC    &alt_RBRC  &kp N7     &kp N8        &kp N9     &kp BSLH      &alt_dqt           &none
-          &alt_pipe         &alt_star       &kp EXCL       &kp UNDER      &kp EQUAL     &kp LPAR     &kp RPAR   &kp N4     &kp N5        &kp N6     &alt_semi     &alt_dot
+          &alt_pipe         &alt_star       &kp EXCL       &kp UNDER      &kp EQUAL     &kp LPAR     &kp RPAR   &kp N4     &kp N5        &kp N6     &alt_semi     &alt_colon
           &alt_carret       &alt_ampersand  &alt_qmark     &m_ru          &m_en         &alt_LT      &alt_GT    &kp N1     &kp N2        &kp N3     &kp N0        &alt_apostrophe
                                                            &lt ADJ TAB    &trans        &trans       &trans     &trans     &lt ADJ DEL
                         >;
