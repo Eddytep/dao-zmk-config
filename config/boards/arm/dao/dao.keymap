@@ -223,7 +223,7 @@
                 lower_layer {
                         bindings = <
   &none   &mt LALT PERCENT     &kp KP_SLASH    &kp KP_ASTERISK  &kp MINUS      &kp PLUS      &alt_LBRC    &alt_RBRC  &kp N7     &kp N8        &kp N9     &kp BSLH      &alt_dqt           &none
-          &mt LCTRL &alt_pipe  &alt_qmark      &kp EXCL         &m_ru          &m_en         &kp LPAR     &kp RPAR   &kp N4     &kp N5        &kp N6     &alt_semi     &alt_colon
+          &alt_pipe            &alt_qmark      &kp EXCL         &m_ru          &m_en         &kp LPAR     &kp RPAR   &kp N4     &kp N5        &kp N6     &alt_semi     &alt_colon
           &alt_carret          &alt_ampersand  &alt_at          &kp UNDER      &kp EQUAL     &alt_LT      &alt_GT    &kp N1     &kp N2        &kp N3     &kp N0        &alt_apostrophe
                                                                 &lt ADJ TAB    &trans        &trans       &trans     &trans     &lt ADJ DEL
                         >;
